@@ -1,0 +1,40 @@
+:root{
+    --red: #E50914;
+    --black: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Limite da caixa *n estoura* */
+}
+
+body {
+    background-color: var(--black);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+header .Logo{
+    color: var(--red);
+    font-family: 'Arial Black', Helvetica;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAAAAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff
+}
