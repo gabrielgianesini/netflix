@@ -1,0 +1,28 @@
+.video-container .containervideo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.video-container .fechar{
+    height: 20px;
+    width: 20px;
+    font-size: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.video-container{
+    height: 55vh;
+    width: 100vw;
+    position: absolute; 
+    justify-content: center; /* eixo principal */
+    align-items: center; /* eixo secundario */
+    z-index: -1;
+    display: none;
+}
+#videoPrincipal{
+    border: solid 1px black;
+}

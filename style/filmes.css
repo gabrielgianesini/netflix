@@ -1,0 +1,18 @@
+
+
+.filmes-destaque .container{
+    padding-top: 3vh;
+}
+
+.filmes-destaque .titulo{
+    font-size: 30px;
+}
+
+.filmes-destaque .itens{
+    display: flex;
+    flex-wrap: wrap;
+    
+}    
+.filmes-destaque .item{
+    padding: 2vh 1vw;
+}

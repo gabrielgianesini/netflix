@@ -1,0 +1,27 @@
+
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .descricao{
+        width: 50%;
+    }
+}
+
+/* video */
+@media screen and (min-width: 1400px){
+    #videoPrincipal{
+        width: 730px;
+        height: 420px;
+    }
+}
+@media screen and (max-width: 1000px){
+    #videoPrincipal{
+        width: 670;
+        height: 400px;
+    }
+}

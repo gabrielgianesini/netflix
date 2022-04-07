@@ -5,19 +5,108 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/mainAssistir.css" />
+
+    <!-- responsividade -->
+    <link rel="stylesheet" href="style/responsive.css">
+
+    <!-- Owl Css -->
+    <link rel="stylesheet" href="style/Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/Owl/owl.theme.default.min.css">
+   
+    <link rel="icon" href="https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico">
     <title>NETFLIX-Clone</title>
 </head>
 <body>
+    <div class="video-container">
+        <div class="containervideo">
+            <button class="fechar" onclick="fecharVideo()">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="videoborder">
+                <iframe id="videoPrincipal" autoplay="true" width="670" height="400" src="http://www.youtube.com/embed/hujU0dw6Erk" >
+                </iframe>
+            </div>
+
+        </div>
+    </div>
     <header>
         <div class="container">
-            <h2 class="Logo">NETFLIX</h2>
+            <a href="index.html" class="Logo">NETFLIX</a>
             <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Filmes</a>
-                <a href="#">Séries</a>
-                <a href="#">Documentários</a>
+                <a href="index.html">Início</a>
+                <a href="filmes.html">Filmes</a>
+                <a href="series.html">Séries</a>
+                <a href="sobre.html">sobre</a>
             </nav>
         </div>
     </header>
+    <main>
+        <div class="filme-principal">
+            <div class="container">
+                <h3 class="titulo">Velozes e Furiosos 7</h3>
+                <p class="descricao" id="descricao">Após os acontecimentos em Londres, Dom, Brian, Letty e o resto da equipe têm a chance de voltar para os Estados Unidos e recomeçar suas vidas. Mas a tranquilidade do grupo é destruída quando Deckard Shaw, um assassino profissional, quer vingança pelo acidente que deixou seu irmão em coma. Agora, a equipe tem de unir forças para deter um vilão novo e ainda mais perigoso. Dessa vez, não se trata apenas de uma questão de velocidade: a corrida é pela sobrevivência.</p>
+                <div class="botoes">
+                    <button role="button" class="botaoPlay" onclick="playVideo()">
+                        <i class="fa-solid fa-play"></i>
+                        Assistir
+                     </button>
+                     <button  role="button"  class="botaoInfo" 
+                     onclick="exibeDescricao()">
+                        <i class="fa-solid fa-circle-info"></i>
+                        Mais informações
+                     </button>
+                </div>
+            </div> 
+        </div>
+    </main>
+    <div class="filmes-top10">
+        <div class="container">
+            <h3>Top 10 em Filmes no Brasil hoje</h3>
+        </div>
+    </div>
+    <div class="carrosel-filmes">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class=""box-filme src="https://www.themoviedb.org/t/p/w220_and_h330_face/1iVjKCGHPVNj7IQVB1DdpL8U7Y8.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class=""box-filme src="img/mini/mini2.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class=""box-filme src="img/mini/mini3.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class=""box-filme src="img/mini/mini4.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class=""box-filme src="https://www.themoviedb.org/t/p/w220_and_h330_face/GM1yyjtc1wcmG3RLAERRmSFm1e.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class=""box-filme src="img/mini/mini6.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class=""box-filme src="img/mini/mini7.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class=""box-filme src="img/mini/mini8.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class=""box-filme src="img/mini/mini9.jpg" alt="" srcset="">
+            </div>
+            <div class="item">
+                <img class=""box-filme src="img/mini/mini10.jpg" alt="" srcset="">
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="https://kit.fontawesome.com/6e57652643.js" crossorigin="anonymous"></script>
+    <script src="js/Owl/jquery.min.js"></script>
+    <script src="js/Owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+    <script src="js/index.js"></script>
+
 </body>
 </html>

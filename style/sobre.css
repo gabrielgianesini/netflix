@@ -1,0 +1,19 @@
+/* body{ 
+    overflow: hidden;
+} */
+
+.sobre-site {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.sobre-site .title {
+    font-size: 30px;
+}
+
+.sobre-site p{
+    font-size: 20px;
+}
