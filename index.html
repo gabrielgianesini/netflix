@@ -4,32 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/main.css" />
-    <link rel="stylesheet" href="./style/mainAssistir.css" />
+    <link rel="stylesheet" href="./style/main/main.css" />
+    <link rel="stylesheet" href="./style/main/mainAssistir.css" />
 
     <!-- responsividade -->
-    <link rel="stylesheet" href="style/responsive.css">
+    <link rel="stylesheet" href="style/main/responsive.css">
 
     <!-- Owl Css -->
-    <link rel="stylesheet" href="style/Owl/owl.carousel.min.css">
-    <link rel="stylesheet" href="style/Owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style/main/Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/main/Owl/owl.theme.default.min.css">
    
     <link rel="icon" href="https://assets.nflxext.com/ffe/siteui/common/icons/nficon2016.ico">
     <title>NETFLIX-Clone</title>
 </head>
 <body>
-    <div class="video-container">
-        <div class="containervideo">
-            <button class="fechar" onclick="fecharVideo()">
-                <i class="fa-solid fa-xmark"></i>
-            </button>
-            <div class="videoborder">
-                <iframe id="videoPrincipal" autoplay="true" width="670" height="400" src="http://www.youtube.com/embed/hujU0dw6Erk" >
-                </iframe>
-            </div>
-
-        </div>
-    </div>
     <header>
         <div class="container">
             <a href="index.html" class="Logo">NETFLIX</a>
@@ -41,7 +29,20 @@
             </nav>
         </div>
     </header>
+    
     <main>
+        <div class="video-container">
+            <div class="containervideo">
+                <button class="fechar" onclick="fecharVideo()">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <div class="videoborder">
+                    <iframe id="videoPrincipal" autoplay="true" width="670" height="400" src="http://www.youtube.com/embed/hujU0dw6Erk" >
+                    </iframe>
+                </div>
+    
+            </div>
+        </div>
         <div class="filme-principal">
             <div class="container">
                 <h3 class="titulo">Velozes e Furiosos 7</h3>
@@ -60,46 +61,46 @@
             </div> 
         </div>
     </main>
+
     <div class="filmes-top10">
         <div class="container">
             <h3>Top 10 em Filmes no Brasil hoje</h3>
         </div>
-    </div>
-    <div class="carrosel-filmes">
-        <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img class=""box-filme src="https://www.themoviedb.org/t/p/w220_and_h330_face/1iVjKCGHPVNj7IQVB1DdpL8U7Y8.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class=""box-filme src="img/mini/mini2.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class=""box-filme src="img/mini/mini3.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class=""box-filme src="img/mini/mini4.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class=""box-filme src="https://www.themoviedb.org/t/p/w220_and_h330_face/GM1yyjtc1wcmG3RLAERRmSFm1e.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class=""box-filme src="img/mini/mini6.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class=""box-filme src="img/mini/mini7.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class=""box-filme src="img/mini/mini8.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class=""box-filme src="img/mini/mini9.jpg" alt="" srcset="">
-            </div>
-            <div class="item">
-                <img class=""box-filme src="img/mini/mini10.jpg" alt="" srcset="">
+        <div class="carrosel-filmes">
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class=""box-filme src="https://www.themoviedb.org/t/p/w220_and_h330_face/1iVjKCGHPVNj7IQVB1DdpL8U7Y8.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class=""box-filme src="img/mini/mini2.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class=""box-filme src="img/mini/mini3.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class=""box-filme src="img/mini/mini4.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class=""box-filme src="https://www.themoviedb.org/t/p/w220_and_h330_face/GM1yyjtc1wcmG3RLAERRmSFm1e.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class=""box-filme src="img/mini/mini6.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class=""box-filme src="img/mini/mini7.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class=""box-filme src="img/mini/mini8.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class=""box-filme src="img/mini/mini9.jpg" alt="" srcset="">
+                </div>
+                <div class="item">
+                    <img class=""box-filme src="img/mini/mini10.jpg" alt="" srcset="">
+                </div>
             </div>
         </div>
     </div>
-
     
 
     <script src="https://kit.fontawesome.com/6e57652643.js" crossorigin="anonymous"></script>
